@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+aside {
+    display: block;
+    width: 15vw;
+    flex-shrink: 0;
+    padding: 0;
+    float: left;
+    height: 99vh;
+    overflow-y: hidden;
+    margin-left: 17vw;
+    margin-top: 1vh;
+}
+
+aside svg {
+    width: 1.65vw;
+    height: 1.65vw;
+    margin-right: 1vw;
+    margin-bottom: 1vw;
+}
+
+section {
+    display: flex;
+    margin: 0.7vh;
+    align-items: center;
+}
+
+section:hover {
+    cursor: pointer;
+    background-color: gray;
+}
+
+section button {
+    width: 12vw;
+    height: 5vh;
+    border-radius: 30px;
+    color: white;
+    background-color: black;
+    border-style: none;
+}
+
+#profile-button {
+    display: flex;
+    margin-top: 15vh;
+}
+
+
+
